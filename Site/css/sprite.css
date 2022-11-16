@@ -1,0 +1,45 @@
+div{
+  border: 1px solid;
+  width: 80px;
+  height: 80px;
+  display: inline-block;
+  background:url("../images/sprite.jpg") no-repeat;
+  
+}
+.icons1{
+  background-position: -11px -11px;
+}
+.icons1:hover {
+  background-position: -11px -178px;
+}
+
+.icons2 {
+  background-position: -95px -11px;
+}
+.icons2:hover {
+  background-position: -95px -176px;
+}
+.icons3 {
+  background-position: -177px -11px;
+}
+.icons3:hover {
+  background-position: -177px -176px;
+}
+.icons4 {
+  background-position: -260px -11px;
+}
+.icons4:hover {
+  background-position: -260px -176px;
+}
+.icons5 {
+  background-position: -11px -95px;
+}
+.icons6{
+  background-position: -95px -95px  ;
+}
+.icons7 {
+  background-position: -177px -95px;
+}
+.icons8 {
+  background-position: -260px -95px;
+}
