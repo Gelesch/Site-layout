@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--
+  Домашнее задание № 6
+Создайте форму с элементами и метками и сгруппируйте их:
+
+1 группа (личные данные): имя, email, логин пароль;
+
+2 группа (адрес и способ доставки): текстовое поле, выпадающий список со способами доставки;
+
+3 группа (способы оплаты): 3 способа оплаты на выбор с помощью радиокнопок;
+
+4 группа (уведомление): 2 чекбокса - "Позвонить за час до прибытия" и "Отправить трекер товара на почту", а также создайте кнопку отправки и сброса формы.
+-->
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <a href="index.html" title="Homepage">Homepage</a>
+</head>
+
+<body>
+
+  <form action="" method="get">
+    <fieldset>
+      <legend>Personal data</legend>
+      <p>
+        <label for="">Name</label>
+        <input type="text" name="name" id="name">
+      </p>
+      <p>
+        <label for="">Password</label>
+        <input type="password" name="password" id="password">
+      </p>
+      <p>
+        <label for="">Email</label>
+        <input type="email" name="emaail" id="email">
+      </p>
+    </fieldset>
+
+    <fieldset>
+      <legend>Address and Delivery method</legend>
+
+      <p>
+        <legend>Address</legend>
+        <input type="text" name="address" id="address">
+      </p>
+      <p>
+        <legend>Delivery method</legend>
+        <input type="text" name="delivery_method" list="delivery_method">
+        <datalist id="delivery_method">
+          <option value="Pickup">Pickup</option>
+          <option value="Delivery">Delivery</option>
+        </datalist>
+      </p>
+    </fieldset>
+
+    <fieldset>
+      <legend>Payment method</legend>
+      <p>
+        <label for="payment1">In cash</label>
+        <input type="radio" name="payment" id="payment1">
+      </p>
+
+      <p>
+        <label for="payment2">By card</label>
+        <input type="radio" name="payment" id="payment2">
+      </p>
+
+      <p>
+        <label for="payment3">Cryptocurrency</label>
+        <input type="radio" name="payment" id="payment3">
+      </p>
+
+    </fieldset>
+
+    <fieldset>
+      <legend>Notification</legend>
+
+      <p>
+        <label for="check">Call an hour before arrival</label>
+        <input type="checkbox" name="call_check" id="check">
+      </p>
+
+      <p>
+        <label for="check1">Send the product tracker to the mail</label>
+        <input type="checkbox" name="call_check" id="check1">
+      </p>
+
+    </fieldset>
+
+    <p><input type="submit" value="Submit">
+      <input type="reset" value="Reset">
+    </p>
+
+
+
+
+
+
+  </form>
+
+</body>
+
+</html>

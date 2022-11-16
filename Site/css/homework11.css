@@ -1,0 +1,11 @@
+p{
+  text-align: center;
+  color: blue;
+}
+ul.wishes li{
+
+  list-style-type: lower-roman;
+}
+ul.wishes2 li{
+  list-style-image:url("../images/icon2.png") ;
+}

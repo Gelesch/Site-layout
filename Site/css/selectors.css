@@ -1,0 +1,62 @@
+body {
+  font-size: 25px;
+}
+
+p,
+spa {
+  color: black;
+}
+
+h2 {
+  color: blue;
+}
+
+span {
+  color: cadetblue;
+}
+
+/*Селектор id*/
+#list1 {
+  color: rgb(31, 183, 239);
+}
+
+#list2 {
+  color: burlywood;
+}
+
+/* Селектора класса */
+.list1 {
+  font-weight: bold;
+}
+
+.list3 {
+  font-style: oblique;
+  color: darkseagreen;
+}
+
+/*Селектор параметров атрибута*/
+.form1 input[type="text"] {
+  color: royalblue;
+  font-size: 20px;
+}
+
+/*Контекстный селектор*/
+div.div1 p span {
+  color: green
+}
+
+/*Дочерний селектор*/
+.blog>p {
+  color: orange;
+  font-size: 16px;
+}
+
+/*Комбинированный селектор*/
+.comb_1 p+span {
+  color: orange;
+}
+
+/* Родтсвенный селектор*/
+.comb_2 p~span {
+  color: blue;
+}

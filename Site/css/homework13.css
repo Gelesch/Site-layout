@@ -1,0 +1,56 @@
+/*.block {
+  border: 2px solid rgb(0, 255, 132);
+  width: 400px;
+  height: 400px;
+  padding-left: 20px;
+  padding-top:20px ;
+  padding-right: 20px;
+  padding-bottom:20px;
+  
+   margin: 0 auto;
+   position: relative;
+   overflow: scroll;
+}
+
+.block_11 {
+  border: 2px solid rgb(138, 43, 226);
+  position: absolute;
+  width: 20%;
+  height: 100%;
+ }
+
+.blcok_21 {
+  border: 2px solid rgb(237, 29, 10);
+  position: absolute;
+  width: 40%;
+  height: 100%;
+  right: 15px;
+ 
+}*/
+.blcock41{
+ border:2px solid rgb(42, 13, 206);
+ width: 100px;
+ height: 49px;
+ display: inline-block;
+ margin-right: 5px;
+}
+.blcock42 {
+  border: 2px solid rgb(15, 163, 138);
+  width: 100px;
+  height: 49px;
+  display: inline-block;
+  margin-left: 5px;
+}
+.block9{
+  border: 2px solid;
+
+}
+.block9 p{
+border: 2px solid;
+float: left;
+}
+
+
+
+
+

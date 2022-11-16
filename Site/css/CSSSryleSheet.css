@@ -1,0 +1,113 @@
+p {
+  border: 1px solid royalblue;
+  border-left: 5px dotted red;
+  border-color: aquamarine blanchedalmond khaki goldenrod;
+  border-width: 2px 5px 10px 7px;
+}
+
+span {
+  border: 1px solid green;
+  /* Делает из строчного элемента блочный*/
+  display: block;
+
+}
+
+.block {
+  border: 1px solid;
+  width: 500px;
+  height: 100px;
+  border-radius: 10px;
+  /* создает отступ внуитри блока*/
+  padding: 20px 10px 5px 12px;
+  /* Служит для точго чтобы не изменять размер блока*/
+  box-sizing: border-box;
+  /*создает отспут с наружи блока*/
+  margin: 20px;
+  /*блок становиться по центру*/
+  margin: 0 auto;
+  /* Если текст вылазит за форму ,он его сркывает*/
+  /* overflow: hidden;*/
+  /* overflow: scroll;*/
+  overflow: auto;
+
+  box-shadow: 5px 5px 5px 4px black;
+  /* блок становиться строчно-блочным*/
+  display: inline-block;
+}
+
+.inline {
+  border: 1px solid;
+  /* блок становиться строчно-блочным*/
+  display: inline-block;
+  width: 200px;
+  height: 40px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.blocK {
+  border: 2px solid;
+  width: 400px;
+  height: 200px;
+  position: relative;
+  right: 20px;
+
+
+}
+
+.blocK_1 {
+  border: 2px solid;
+  width: 400px;
+  height: 200px;
+  left: 20px;
+  right: 20px;
+  top: 20px;
+}
+
+.blocK_2 {
+  border: 2px solid red;
+  width: 400px;
+  height: 200px;
+  position: absolute;
+}
+
+.blocK_3 {
+  border: 2px solid rgb(30, 19, 132);
+  width: 400px;
+  height: 200px;
+  /*Фиксируется и при прокрутке он фикисруется совметсно нужно использовать z-index!*/
+  position: fixed;
+  z-index: 1;
+  top: 25px;
+  left: 25px;
+}
+
+/* Для фиксации области одной в другой нужно использовать у родителя relative у наследника absolute */
+.blocK_4 {
+  border: 4px solid rebeccapurple;
+  width: 400px;
+  height: 250px;
+  position: relative;
+
+}
+
+.blocK_4 div {
+  border: 1px solid;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  ;
+}
+
+block_5 p {
+  border: 1px solid;
+  float: left;
+}
+
+.cub {
+  width: 100px;
+  height: 100px;
+  background: red;
+}

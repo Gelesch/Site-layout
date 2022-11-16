@@ -1,0 +1,57 @@
+p {
+  color: #b518c469;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  /* Металик */
+  font-style: italic;
+  /* толщина */
+  font-weight: 900;
+  /* межстрочное растояние */
+  line-height: 20px;
+  text-align: center;
+  /* подчеркивание*/
+  text-decoration: underline;
+  /* зачеркивание]*/
+  text-decoration: line-through;
+  /*Отступ начала строки*/
+  text-indent: 40px;
+  text-shadow:8px 8px  5px;
+  /*строчные или заглавные буквы*/
+ /* text-transform:uppercase;*/
+  /*text-transform: capitalize;*/
+  text-transform: lowercase;
+}
+ul.list1{
+  color: red;
+  font-size:30px;
+  /*Отвечает за маркер*/ 
+
+  /*list-style-type:none;*/
+
+ /* list-style-type: circle;*/
+
+/* list-style-type:disc;  */
+
+  /*list-style-type:lower-greek;*/ 
+  /* Картинка /*
+  list-style-image: url("../images/icon1.png");
+  /*list-style-image: url("../images/icon2.png");
+  list-style-image: url("../images/icon3.png");
+  list-style-image: url("../images/icon4.png");*/
+}
+ul.list1 li span{ 
+  color:black; 
+}
+ul.mune li {
+
+  font-size: 30px;
+  list-style-type: none;
+  font-family:Arial, Helvetica, sans-serif ;
+  list-style-image: url("../images/icon2.png ");
+  
+}
+ul.mune li a
+{
+text-decoration: none;
+  color: black;
+}

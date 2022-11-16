@@ -1,0 +1,27 @@
+#accident{
+  color: red;
+  font-weight: bold;
+}
+
+.one>p {
+  color: green;
+}
+.third p {
+  font-size: 18px;
+  font-style: italic;
+}
+.one1{
+  color: red;
+}
+.two2{
+  color: blue;
+}
+.formhomework12 input[type="text"]{
+  font-size: 20px;
+}
+input[type="submit"]{
+  color: green;
+}
+input[type="reset"]{
+  color: red;
+}

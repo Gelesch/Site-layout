@@ -1,0 +1,50 @@
+.block_8{
+  border: 1px solid;
+  height: 400px;
+  width: 400px;
+  background: rgb(0, 191, 255);
+}
+.block_81{
+  border: 1px solid;
+    height: 400px;
+    width: 400px;
+    background: url("../images/background.png ")
+}
+.block_82{
+  border: 1px solid;
+    height: 400px;
+    width: 400px;
+    background: url("../images/zima_small.jpg ") no-repeat rebeccapurple
+}
+
+.block_83 {
+  border: 1px solid;
+  height: 400px;
+  width: 400px;
+  background: url("../images/zima_small.jpg ") no-repeat center center
+}
+.block_84{
+
+  border: 1px solid;
+    height: 400px;
+    width: 400px;
+    background: url("../images/zima_small.jpg ") no-repeat,url("../images/background.png ")
+}
+.block_85 {
+
+  border: 1px solid;
+  height: 400px;
+  width: 400px;
+  background: url("../images/zima_small.jpg ") no-repeat ;
+ /* Растягивает картинку на всю ширину экрана*/
+  background-size: cover;
+}
+
+.block_86 {
+ box-shadow: 5px 5px 4px  rgb(185, 181, 181), 8px 8px 4px rgba(255, 0, 0, 0.2);
+  border: 1px solid;
+  height:400px;
+  width:400px;
+  margin: 20px;
+  
+}
