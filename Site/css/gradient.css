@@ -1,0 +1,37 @@
+.grad_1{
+  background: linear-gradient( to right, red,blue, yellow);
+  border: 1px solid ;
+  height: 280px;
+  width: 200px;
+}
+.grad_2{
+  background: linear-gradient(to bottom, rgb(0, 255, 128), rgb(204, 14, 185), rgb(221, 100, 14));
+  border: 1px solid;
+  height: 280px;
+  width: 200px;
+}
+.grad_3{
+background: linear-gradient(to right top, red, blue, yellow);
+border: 1px solid;
+height: 280px;
+width: 200px;
+}
+.grad_4{
+  background: linear-gradient( 90deg,rgb(191, 24, 24)20px, rgb(28, 179, 184) 20px,yellow 50px,green 300px);
+  border: 1px solid;
+  height: 280px;
+  width: 200px;
+  }
+  .radial_1{
+    background: radial-gradient( at right, rgb(186, 40, 40),rgb(189, 125, 21),yellow);
+      border: 1px solid;
+      height: 280px;
+      width: 200px;
+  }
+  .grad5{
+ background:radial-gradient(circle at 65% 15%,white,red);
+   border-radius: 100%;
+   border: 1px solid;
+   height: 280px;
+    width: 280px;
+  }
