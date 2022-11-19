@@ -1,0 +1,54 @@
+.listhomework18 li:not(.point) {
+  list-style-type: none;
+  color: brown;
+  margin: 2px auto ;
+  line-height: 40px;
+  text-align: center;  
+  
+  
+}
+
+.listhomework18{
+    list-style-type: none;
+}
+.listhomework18 li:before{
+  content: "\260E";
+}
+.listhomework18 li:nth-child(1):active{
+  color: chocolate;
+  font-size: large;
+}
+.listhomework18 li:nth-child(1):hover {
+  color: rgb(29, 17, 210);
+  font-size: large;
+}
+.listhomework18 li:nth-child(2):active {
+  color: rgb(17, 200, 100);
+  font-size: large;
+}
+.listhomework18 li:nth-child(2):hover {
+  color: rgb(29, 17, 210);
+  font-size: large;
+}
+.listhomework18 li:nth-child(3):active {
+  color: rgb(247, 255, 19);
+  font-size: large;
+}
+.listhomework18 li:nth-child(3):hover {
+  color: rgb(29, 17, 210);
+  font-size: large;
+}
+
+
+
+.listhomework18 li:nth-child(5):active {
+  color: rgb(237, 13, 72);
+  font-size: large;
+}
+.listhomework18 li:nth-child(5):hover {
+  color: rgb(29, 17, 210);
+  font-size: large;
+}
+.radio11 input:checked+label{
+  color: greenyellow;
+}
